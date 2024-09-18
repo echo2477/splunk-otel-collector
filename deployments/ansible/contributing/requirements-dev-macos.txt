@@ -2,3 +2,5 @@ ansible==3.4.0
 molecule==3.3.0
 molecule-vagrant==0.6.1
 python-vagrant==0.5.15
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
